@@ -1,9 +1,4 @@
-It looks like you're requesting an update to your README to reflect the full **MEAN stack**, not just the backend API. Right now, the README only focuses on the **backend (MongoDB, Express.js, Node.js)** portion and doesn’t mention the **Angular frontend**, which is a critical part of the MEAN stack.
-
-Here’s an updated version of your introduction and table of contents to reflect that the repository includes or supports both frontend and backend (assuming you either have the frontend code in a subfolder or intend to link it):
-
----
-
+~AUTHER : KARTIK UMESH AMBIG
 # E-Commerce Application (MEAN Stack)
 
 This repository contains the backend API for a modern e-commerce application built with the **MEAN stack (MongoDB, Express.js, Angular, Node.js)**. It provides RESTful endpoints for user management (authentication, authorization), product catalog, order processing, and more.
