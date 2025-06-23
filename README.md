@@ -1,79 +1,78 @@
-# E-Commerce Backend API (MEAN Stack)
+It looks like you're requesting an update to your README to reflect the full **MEAN stack**, not just the backend API. Right now, the README only focuses on the **backend (MongoDB, Express.js, Node.js)** portion and doesn’t mention the **Angular frontend**, which is a critical part of the MEAN stack.
 
-This repository contains the backend API for a modern e-commerce application built with the MEAN stack (MongoDB, Express.js, Node.js). It provides RESTful endpoints for user management (authentication, authorization), product catalog, order processing, and more.
+Here’s an updated version of your introduction and table of contents to reflect that the repository includes or supports both frontend and backend (assuming you either have the frontend code in a subfolder or intend to link it):
+
+---
+
+# E-Commerce Application (MEAN Stack)
+
+This repository contains the backend API for a modern e-commerce application built with the **MEAN stack (MongoDB, Express.js, Angular, Node.js)**. It provides RESTful endpoints for user management (authentication, authorization), product catalog, order processing, and more.
+
+A separate Angular frontend client is included in this project or is intended to be used alongside this backend to provide a full-stack e-commerce solution.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
-  - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
-- [Database Schema](#database-schema)
-- [Authentication & Authorization](#authentication--authorization)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Prerequisites](#prerequisites)
+* [Getting Started](#getting-started)
+
+  * [Backend Installation](#backend-installation)
+  * [Frontend Installation](#frontend-installation)
+  * [Environment Variables](#environment-variables)
+  * [Running the Application](#running-the-application)
+* [API Endpoints](#api-endpoints)
+* [Database Schema](#database-schema)
+* [Authentication & Authorization](#authentication--authorization)
+* [Project Structure](#project-structure)
+* [Contributing](#contributing)
+* [License](#license)
 
 ## Features
 
--   **User Authentication**: Register, Login, and get authenticated user details using JSON Web Tokens (JWT).
--   **User Roles**: Differentiate between regular users and administrators.
--   **Product Management**: CRUD operations for products (Create, Read, Update, Delete) - Admin-only for CUD.
--   **Category Management**: CRUD operations for product categories.
--   **Order Management**: Handle order creation, viewing, and status updates.
--   **Database Integration**: MongoDB with Mongoose for robust data modeling.
--   **Scalable API**: Built with Express.js for a flexible and performant API.
+* **User Authentication**: Register, Login, and get authenticated user details using JSON Web Tokens (JWT).
+* **User Roles**: Differentiate between regular users and administrators.
+* **Product Management**: CRUD operations for products (Create, Read, Update, Delete) - Admin-only for CUD.
+* **Category Management**: CRUD operations for product categories.
+* **Order Management**: Handle order creation, viewing, and status updates.
+* **Database Integration**: MongoDB with Mongoose for robust data modeling.
+* **Frontend Interface**: Angular frontend for seamless user interaction and admin management.
+* **Scalable API**: Built with Express.js for a flexible and performant backend.
 
 ## Technologies Used
 
--   **Node.js**: JavaScript runtime environment.
--   **Express.js**: Fast, unopinionated, minimalist web framework for Node.js.
--   **MongoDB**: NoSQL database for storing application data.
--   **Mongoose**: MongoDB object modeling for Node.js.
--   **JWT (jsonwebtoken)**: For secure user authentication.
--   **Bcrypt.js**: For hashing passwords securely.
--   **CORS**: Middleware to enable Cross-Origin Resource Sharing.
--   **Dotenv**: To manage environment variables.
+* **Node.js**: JavaScript runtime environment.
+* **Express.js**: Backend framework for Node.js.
+* **MongoDB**: NoSQL database for data storage.
+* **Mongoose**: MongoDB object modeling.
+* **JWT (jsonwebtoken)**: Secure token-based authentication.
+* **Bcrypt.js**: Password hashing.
+* **CORS**: Middleware for Cross-Origin Resource Sharing.
+* **Dotenv**: Managing environment variables.
+* **Angular**: Frontend SPA framework using TypeScript.
+* **RxJS**: Reactive programming for frontend data streams.
+* **Angular Material or Bootstrap** *(if used)*: UI components and styling.
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+Before you begin, ensure you have the following installed:
 
--   Node.js (LTS version recommended)
--   npm (Node Package Manager)
--   MongoDB installed locally and running, or access to a MongoDB Atlas cluster.
--   Git
+* **Node.js** (LTS version)
+* **npm** (Node Package Manager)
+* **Angular CLI**
+* **MongoDB** (locally or MongoDB Atlas)
+* A code editor like **VS Code**
 
-## Getting Started
+---
 
-Follow these steps to get the backend up and running on your local machine.
+If your Angular frontend is located in a subdirectory (e.g., `/frontend`), you can add a section under **Getting Started** like:
 
-### Installation
+### Frontend Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/kartikambig149/ecommerce-backend.git](https://github.com/kartikambig149/ecommerce-backend.git)
-    # Or, if it's part of a larger monorepo structure, adjust accordingly
-    # git clone [https://github.com/kartikambig149/MEAN_STACK_PROJECT.git](https://github.com/kartikambig149/MEAN_STACK_PROJECT.git)
-    ```
-2.  **Navigate to the backend directory:**
-    ```bash
-    cd ecommerce-backend # Or the appropriate path if cloned as part of a monorepo
-    ```
-3.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+```bash
+cd frontend
+npm install
+ng serve
+```
 
-### Environment Variables
-
-Create a `.env` file in the root of the `ecommerce-backend` directory and add the following variables:
-
-```dotenv
-MONGO_URI=mongodb://localhost:27017/ecommerce_db
-JWT_SECRET=your_super_secret_jwt_key_here
-PORT=5000
+Let me know if you’d like the full README updated with those sections or if you want to link the frontend and backend repos together cleanly in one document.
