@@ -1,0 +1,39 @@
+ecommerce-frontend/
+├── node_modules/
+├── src/
+│   ├── app/
+│   │   ├── app.config.ts
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.scss
+│   │   ├── app.routes.ts
+│   │   ├── core/           (Services, Interceptors, Guards)
+│   │   │   ├── auth.service.ts
+│   │   │   ├── product.service.ts
+│   │   │   ├── auth.interceptor.ts
+│   │   │   └── auth.guard.ts
+│   │   ├── shared/         (Reusable components, pipes, directives)
+│   │   │   ├── header/header.component.ts
+│   │   │   ├── footer/footer.component.ts
+│   │   │   ├── product-card/product-card.component.ts
+│   │   │   └── ...
+│   │   └── features/       (Feature-specific modules/components)
+│   │       ├── auth/
+│   │       │   ├── login/login.component.ts
+│   │       │   └── register/register.component.ts
+│   │       ├── products/
+│   │       │   ├── product-list/product-list.component.ts
+│   │       │   ├── product-details/product-details.component.ts
+│   │       │   └── ...
+│   │       ├── cart/
+│   │       │   └── cart-view/cart-view.component.ts
+│   │       └── ...
+│   ├── assets/
+│   ├── environments/
+│   ├── favicon.ico
+│   ├── index.html
+│   └── main.ts
+├── angular.json
+├── package.json
+├── tsconfig.json
+├── tailwind.config.js

@@ -1,0 +1,12 @@
+/* You can also import these into your root style file like this: */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles if any */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}

@@ -1,0 +1,24 @@
+ecommerce-backend/
+├── node_modules/
+├── .env
+├── package.json
+├── server.js
+├── config/
+│   └── db.js
+├── models/
+│   ├── User.js
+│   ├── Product.js
+│   ├── Order.js
+│   └── Category.js
+├── routes/
+│   ├── auth.js
+│   ├── products.js
+│   ├── orders.js
+│   └── users.js
+├── middleware/
+│   └── auth.js
+└── controllers/
+    ├── authController.js
+    ├── productController.js
+    ├── orderController.js
+    └── userController.js
