@@ -41,12 +41,8 @@ A separate Angular frontend client is included in this project or is intended to
 * **MongoDB**: NoSQL database for data storage.
 * **Mongoose**: MongoDB object modeling.
 * **JWT (jsonwebtoken)**: Secure token-based authentication.
-* **Bcrypt.js**: Password hashing.
-* **CORS**: Middleware for Cross-Origin Resource Sharing.
-* **Dotenv**: Managing environment variables.
 * **Angular**: Frontend SPA framework using TypeScript.
-* **RxJS**: Reactive programming for frontend data streams.
-* **Angular Material or Bootstrap** *(if used)*: UI components and styling.
+* **Angular Material: UI components and styling.
 
 ## Prerequisites
 
@@ -69,5 +65,3 @@ cd frontend
 npm install
 ng serve
 ```
-
-Let me know if you’d like the full README updated with those sections or if you want to link the frontend and backend repos together cleanly in one document.
